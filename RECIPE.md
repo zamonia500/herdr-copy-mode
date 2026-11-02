@@ -1,10 +1,10 @@
-# Copy Mode
+# tmux / WezTerm-style Copy Mode
 
 Press `ctrl-shift-x` in any terminal and its screen and scrollback open read-only in nvim, in a new tab named "copy mode". Move and search with vim keys, select with `v`/`V`, and every yank lands on the system clipboard. `q` closes the tab and returns you to the tab you came from.
 
 Herdr has no keyboard copy mode: its only way to copy is selecting text with the mouse. This mod was made to bring back the copy mode of tmux (`prefix [`) and WezTerm (`ctrl-shift-x`), where you select and copy terminal output without leaving the keyboard.
 
-![Copy Mode](preview.png)
+![tmux / WezTerm-style Copy Mode](preview.png)
 
 ## What you see
 
